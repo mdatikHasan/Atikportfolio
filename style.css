@@ -1,0 +1,94 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Serif', sans-serif;
+    margin: 0;
+}
+/* Top Banner */
+
+
+.top-banner{
+    display: flex;
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 24vh;
+}
+.top-banner h1{
+    font-size: 50px;
+}
+.name-atik{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width p{
+    margin-bottom: 30px;}
+.hireMe{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, salmon);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+.half-width img{
+    width: 80%;
+}
+
+/* Dream Big */
+.dream-big{
+    display: flex;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 10vh;
+}
+.dream-big h1{
+    font-size: 50px;
+    margin: 0;
+}
+/* Expweience  */
+.experience-aria{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 20vh;
+}
+.expereince{
+    margin-left: 5%;
+    font-size: 40px;
+}
+.experience-container{
+    display: flex;
+}
+.exper-width{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    padding: 50px 30px;
+}
+.exper-width h1{
+    font-size: 35px;
+}
+
+.exper-width p{
+    line-height: 25px;
+
+}
+.full-slice{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+.baby-slice{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+} 
+
+/* footer section */
+
+footer{
+    text-align: center;
+}
